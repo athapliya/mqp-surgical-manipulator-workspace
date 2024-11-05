@@ -1,0 +1,20 @@
+<package format="3">
+  <name>dynamixel_control</name>
+  <version>0.0.1</version>
+  <description>Control 3 Dynamixel Motors</description>
+  <maintainer email="athapliya2013@gmail.com">atha</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>dynamixel_sdk</depend>
+  <depend>dynamixel_sdk_custom_interfaces</depend>  <!-- Custom interface dependency -->
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

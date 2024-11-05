@@ -1,0 +1,17 @@
+# ROS2 workspace ignore file
+
+# Ignore build, install, and log directories
+/build/
+/install/
+/log/
+
+# Ignore temporary files and other system files
+*.swp
+*.pyc
+.DS_Store
+
+# Ignore vscode settings
+.vscode/
+
+# Ignore .colcon, as it contains workspace-specific settings
+.colcon/
