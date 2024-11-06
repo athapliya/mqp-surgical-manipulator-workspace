@@ -1,0 +1,1 @@
+//Program for subscribing to Sigma. 7 position and publish motor id and degrees
